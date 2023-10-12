@@ -1,0 +1,51 @@
+* {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  :root {
+    --navbar-background-light: #3498db;
+    --navbar-background-dark: #2c3e50;
+    --navbar-text-color-light: #333;
+    --navbar-text-color-dark: #fff;
+  }
+  
+  /* Light Theme */
+  .navbar.light-theme {
+    background-color: var(--navbar-background-light);
+    color: var(--navbar-text-color-light);
+  }
+  
+  /* Dark Theme */
+  .navbar.dark-theme {
+    background-color: var(--navbar-background-dark);
+    color: var(--navbar-text-color-dark);
+  }
+  
+  body {
+    padding: 0%;
+    margin: 0%;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px;
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+  }
+  

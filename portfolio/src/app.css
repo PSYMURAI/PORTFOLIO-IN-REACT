@@ -1,0 +1,8 @@
+/* src/components/Navbar.css */
+* {
+  padding: 0;
+  margin: 0;
+}
+/* index.css or App.css */
+@import 'daisyui/dist/full.css';
+
